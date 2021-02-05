@@ -1,4 +1,9 @@
 img {
   opacity: 0.5;
   min-width: 40vw;
+  max-height: 75vh;
+}
+
+.p-3 {
+  max-width: 65vw;
 }
