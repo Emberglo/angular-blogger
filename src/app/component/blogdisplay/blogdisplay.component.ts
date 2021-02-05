@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Post } from '../../models/post'
+import { FakedbService } from '../../db/fakedb.service'
+
 
 @Component({
   selector: 'app-blogdisplay',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogdisplayComponent implements OnInit {
 
-  constructor() { }
+  posts:Post[]
 
-  ngOnInit(): void {
+  constructor(private fakedbService:FakedbService) { }
+
+  ngOnInit() {
+    this.posts = this.fakedbService.getPosts()
+    // .subscribe(posts => this.posts = posts)
   }
 
 }

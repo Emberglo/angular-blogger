@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { FakedbService } from '../../db/fakedb.service'
+import { Post } from '../../models/post'
 
 @Component({
   selector: 'app-blog-preview',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogPreviewComponent implements OnInit {
 
-  constructor() { }
+  @Input() post: Post
 
-  ngOnInit(): void {
+  //NOTE - Is this like extends?
+  constructor(private fakedbService:FakedbService) { }
+
+  ngOnInit() {
   }
 
 }
