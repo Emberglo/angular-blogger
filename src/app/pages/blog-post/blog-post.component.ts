@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { Post } from '../../models/post'
+import { FakedbService } from '../../db/fakedb.service'
 
 @Component({
   selector: 'app-blog-post',
@@ -7,9 +10,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogPostComponent implements OnInit {
 
-  constructor() { }
+  post:Post
 
-  ngOnInit(): void {
-  }
+  constructor(
+    private route: ActivatedRoute,
+    private fakedbService:FakedbService
+) {}
+
+  ngOnInit() {
+    let posts: Post[] = this.fakedbService.getPosts()
+    let id = parseInt(this.route.snapshot.paramMap.get('id'))
+    console.log(id);
+    this.post = posts.find(p => p.id == id)
+
+
+  // postId = this.route.queryParams.subscribe(params => {
+  //   this.id = params['id'];
+  // });
+}
 
 }

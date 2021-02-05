@@ -10,6 +10,7 @@ export class FakedbService {
   getPosts() {
     return [
       {
+        id: 1,
         title: 'My First Post',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tempus iaculis urna id volutpat lacus. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Ornare massa eget egestas purus viverra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Turpis massa tincidunt dui ut ornare lectus. Eget nunc lobortis mattis aliquam faucibus purus in massa. Turpis tincidunt id aliquet risus feugiat in ante metus dictum.',
         creatorEmail: 'ryan@blogger.com',
@@ -17,6 +18,7 @@ export class FakedbService {
         published: true
       },
       {
+        id: 2,
         title: 'Random Thoughts',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tempus iaculis urna id volutpat lacus. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Ornare massa eget egestas purus viverra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Turpis massa tincidunt dui ut ornare lectus. Eget nunc lobortis mattis aliquam faucibus purus in massa. Turpis tincidunt id aliquet risus feugiat in ante metus dictum.',
         creatorEmail: 'bob@blogger.com',
@@ -24,6 +26,7 @@ export class FakedbService {
         published: true
       },
       {
+        id: 3,
         title: 'What I Do On Wednesdays',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tempus iaculis urna id volutpat lacus. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Ornare massa eget egestas purus viverra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Turpis massa tincidunt dui ut ornare lectus. Eget nunc lobortis mattis aliquam faucibus purus in massa. Turpis tincidunt id aliquet risus feugiat in ante metus dictum.',
         creatorEmail: 'jerry@blogger.com',
@@ -31,6 +34,7 @@ export class FakedbService {
         published: true
       },
       {
+        id: 4,
         title: 'Shut Up Jerry',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tempus iaculis urna id volutpat lacus. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Ornare massa eget egestas purus viverra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Turpis massa tincidunt dui ut ornare lectus. Eget nunc lobortis mattis aliquam faucibus purus in massa. Turpis tincidunt id aliquet risus feugiat in ante metus dictum.',
         creatorEmail: 'rick@blogger.com',
@@ -38,6 +42,7 @@ export class FakedbService {
         published: true
       },
       {
+        id: 5,
         title: 'Oh Jeez, Rick',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tempus iaculis urna id volutpat lacus. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Ornare massa eget egestas purus viverra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Turpis massa tincidunt dui ut ornare lectus. Eget nunc lobortis mattis aliquam faucibus purus in massa. Turpis tincidunt id aliquet risus feugiat in ante metus dictum.',
         creatorEmail: 'morty@blogger.com',
@@ -45,6 +50,7 @@ export class FakedbService {
         published: true
       },
       {
+        id: 6,
         title: 'Wow Guys',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Tempus iaculis urna id volutpat lacus. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Ornare massa eget egestas purus viverra. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Turpis massa tincidunt dui ut ornare lectus. Eget nunc lobortis mattis aliquam faucibus purus in massa. Turpis tincidunt id aliquet risus feugiat in ante metus dictum.',
         creatorEmail: 'ryan@blogger.com',
