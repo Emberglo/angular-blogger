@@ -15,18 +15,12 @@ export class BlogPostComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private fakedbService:FakedbService
-) {}
+  ) {}
 
   ngOnInit() {
     let posts: Post[] = this.fakedbService.getPosts()
     let id = parseInt(this.route.snapshot.paramMap.get('id'))
-    console.log(id);
     this.post = posts.find(p => p.id == id)
-
-
-  // postId = this.route.queryParams.subscribe(params => {
-  //   this.id = params['id'];
-  // });
-}
+  }
 
 }

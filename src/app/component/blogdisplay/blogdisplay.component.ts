@@ -16,7 +16,6 @@ export class BlogdisplayComponent implements OnInit {
 
   ngOnInit() {
     this.posts = this.fakedbService.getPosts()
-    // .subscribe(posts => this.posts = posts)
   }
 
 }
